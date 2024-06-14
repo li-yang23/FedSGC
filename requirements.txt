@@ -1,0 +1,7 @@
+torch==2.2.2
+torchaudio==2.2.2
+torchvision==0.17.2
+numpy==1.26.1
+scipy==1.13.0
+networkx==3.3
+pickleshare==0.7.5
