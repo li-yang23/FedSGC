@@ -16,7 +16,7 @@ Experiments(on Macbook Pro 2019) for now include:
 pip install requirements.txt
 ```
 
-To use it:
+To use it(other arguments follow the default configuration of SGC):
 
 ```bash
 python fedsgc.py
