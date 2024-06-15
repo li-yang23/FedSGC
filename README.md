@@ -1,8 +1,10 @@
 # FedSGC: Federated Simple Graph Convolution for Node Classification
 
-**Disclaimer:** This code is an independent implementation of the methods described in the conference paper [FedSGC: Federated Simple Graph Convolution for Node Classification](https://federated-learning.org/fl-ijcai-2021/FTL-IJCAI21_paper_5.pdf) and is **NOT** the official version. Use at your own risk; the author assumes no responsibility for any discrepancies or damages resulting from its use.
+**Disclaimer:** This code is an incomplete and independent implementation of the methods described in the conference paper [FedSGC: Federated Simple Graph Convolution for Node Classification](https://federated-learning.org/fl-ijcai-2021/FTL-IJCAI21_paper_5.pdf) and is **NOT** the official version. Use at your own risk; the author assumes no responsibility for any discrepancies or damages resulting from its use.
 
 SGC implementation is cloned from official implementation for the paper [Simplifying Graph Convolutional Networks](https://github.com/Tiiiger/SGC). I just add a new python script for FedSGC implementation.
+
+**Note:** This implementation only focus on the training process, so the privacy-preserving protocol for data alignment and the AHE algorithm to encrypt the data are not included.
 
 Experiments(on Macbook Pro 2019) for now include:
 
